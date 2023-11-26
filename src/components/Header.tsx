@@ -2,8 +2,7 @@ import Image from "next/image"
 
 const Header = () => {
     return (
-        <nav className="flex justify-between w-full bg-white shadow-lg p-4 z-10">
-            
+        <nav className="flex justify-between w-full bg-white rounded-2xl p-4 z-10">
             <div className="flex">
                 <div className="flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full">
                     <Image 

@@ -58,7 +58,7 @@ const Sidebar = () => {
                             {isOpen ? <span>Dashboard</span> : null}
                         </li>
 
-                        <li className='gap-2 flex relative  w-full p-3 py-4 hover:bg-primary hover:cursor-pointer hover:text-white rounded-lg'>
+                        <li className='gap-2 flex relative  w-full p-3 py-4 hover:bg-primary hover:cursor-pointer whitespace-nowrap hover:text-white rounded-lg'>
                             <User />
                             {isOpen ? <span>Team Leaders</span> : null}
                            
